@@ -73,10 +73,13 @@ smashbtn.addEventListener('click', async e => {
 
 function randomchik(array) {
 	for (let i = array.length - 1; i > 0; i--) {
-		const randomm = Math.floor(Math.random() * (i + 1));
-		[array[i], array[randomm]] = [array[randomm], array[i]];
+		let randomm = Math.floor(Math.random() * (i + 1))
+		while (randomm === i) {
+			randomm = Math.floor(Math.random() * (i + 1))
+		}
+		[array[i], array[randomm]] = [array[randomm], array[i]]
 	}
-	return array;
+	return array
 }
 
 async function getBlocks() {
