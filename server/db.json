@@ -1,0 +1,24 @@
+{
+  "PICTURES": [
+    {
+      "id": "70e1",
+      "name": "Робот",
+      "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcmc1aB-_GDjVxmqzWQJfDy0XouZj1VUZEZw&s"
+    },
+    {
+      "id": "7d1f",
+      "name": "Луна",
+      "link": ""
+    },
+    {
+      "id": "e5a4",
+      "name": "Автомат",
+      "link": ""
+    },
+    {
+      "id": "9cfe",
+      "name": "Бутылка",
+      "link": ""
+    }
+  ]
+}
